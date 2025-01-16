@@ -182,6 +182,21 @@ struct mapper90Data
    unsigned char irqCounterEnabled;
 };
 
+struct mapper163Data
+{
+   // A9 is latched when PPU 13 rises
+   unsigned char prevPPUA13: 1;
+   unsigned char latchA9: 1;
+   // CHR-RAM Switch is ON or OFF
+   unsigned char chrRamSwitchEnabled: 1;
+   unsigned char latchE: 1;
+   unsigned char latchF: 1;
+   unsigned char swapLast2Bit: 1;
+   unsigned char useA15A16From5000: 1;
+   unsigned char padding: 1;
+   unsigned char PRGBank;
+};
+
 struct mapper224Data
 {
    unsigned char chrRamWriteable;
@@ -290,11 +305,13 @@ typedef struct _SnssMapperBlock
       struct mapper40Data mapper40;
       struct mapper69Data mapper69;
       struct mapper90Data mapper90;
+      struct mapper163Data mapper163;
       struct mapper224Data mapper224;
       struct mapper225Data mapper225;
       struct mapper226Data mapper226;
       struct mapper228Data mapper228;
       struct mapper230Data mapper230;
+      struct mapper249Data mapper249;
    } extraData;
 } SnssMapperBlock;
 

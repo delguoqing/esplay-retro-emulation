@@ -55,13 +55,16 @@ extern mapintf_t map64_intf;
 extern mapintf_t map65_intf;
 extern mapintf_t map66_intf;
 extern mapintf_t map70_intf;
+extern mapintf_t map74_intf;
 extern mapintf_t map75_intf;
 extern mapintf_t map78_intf;
 extern mapintf_t map79_intf;
 extern mapintf_t map85_intf;
 extern mapintf_t map94_intf;
 extern mapintf_t map99_intf;
+extern mapintf_t map163_intf;
 extern mapintf_t map231_intf;
+extern mapintf_t map246_intf;
 
 /* implemented mapper interfaces */
 const mapintf_t *mappers[] =
@@ -94,13 +97,16 @@ const mapintf_t *mappers[] =
    &map65_intf,
    &map66_intf,
    &map70_intf,
+   &map74_intf,   
    &map75_intf,
    &map78_intf,
    &map79_intf,
    &map85_intf,
    &map94_intf,
    &map99_intf,
+   &map163_intf,
    &map231_intf,
+   &map246_intf,
    NULL
 };
 
