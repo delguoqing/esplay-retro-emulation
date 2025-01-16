@@ -1,6 +1,16 @@
  # ESPlay Retro Emulation 
 ![retro-emulation](https://raw.githubusercontent.com/pebri86/esplay-retro-emulation/master/docs/retro_emulation.png) [![GitHub release](https://img.shields.io/github/release/pebri86/esplay-retro-emulation.svg)](https://GitHub.com/pebri86/esplay-retro-emulation/releases/) ![Github All Releases](https://img.shields.io/github/downloads/pebri86/esplay-retro-emulation/total.svg) ![Github Last Commit](https://img.shields.io/github/last-commit/pebri86/esplay-retro-emulation)
 
+我的修改
+----------------------------
+- 支持了[mapper74](https://www.nesdev.org/wiki/INES_Mapper_074)，可以运行重装机兵中文版等游戏
+- 支持了[mapper246](https://www.nesdev.org/wiki/INES_Mapper_246)，可以运行封神榜
+- 支持了[mapper163](https://www.nesdev.org/wiki/INES_Mapper_163)，可以运行一些南晶科技的山寨游戏
+
+如果你有希望支持的游戏，也可以在issue中提出来，我有空的时候会尝试支持。
+如果你有支持其他的游戏，也希望可以Pull Request过来。
+让我们一起找回丢失的童年！
+
 Description and Video Review
 ----------------------------
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=NfbxcjU85Ac" target="_blank"><img src="https://i.ytimg.com/vi/NfbxcjU85Ac/hqdefault.jpg" alt="Youtube Video" width="480" height="320" border="10" /></a>
